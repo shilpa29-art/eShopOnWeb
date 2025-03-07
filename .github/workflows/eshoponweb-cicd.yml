@@ -6,7 +6,7 @@ name: eShopOnWeb Build and Test
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: RG-CTB33-AZ-400-1
-  LOCATION: CENTRALUS
+  LOCATION: centralus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: b45d53e5-4f7a-417e-a01b-26474a637f58
   WEBAPP-NAME: eshoponweb-webapp-shilpa
